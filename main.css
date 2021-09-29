@@ -1,0 +1,24 @@
+body {
+  background-image: url("landingbg.jpg");
+  color: white;
+}
+
+.navbar-brand {
+  margin-right: 87%;
+}
+
+.main-header {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.main-header h1 {
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.btn-third {
+  color: #fff;
+  background-color: #9f5afd;
+  border-color: #9f5afd;
+}
