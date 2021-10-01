@@ -1,10 +1,35 @@
-body {
-  background-image: url("landingbg.jpg");
+path {
+  fill: #AAA;
+}
+
+path:hover {
+  fill: #000;
+}
+
+svg {
+  margin-left: 5px;
+}
+
+.btn:hover {
   color: white;
 }
 
-.navbar-brand {
-  margin-right: 87%;
+.btn-third {
+  color: #fff;
+  background-color: #9f5afd;
+  border-color: #9f5afd;
+}
+
+.btn-third path {
+  fill: white;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card-footer {
+  color: #AAA;
 }
 
 .main-header {
@@ -17,8 +42,20 @@ body {
   margin-bottom: 50px;
 }
 
-.btn-third {
-  color: #fff;
-  background-color: #9f5afd;
-  border-color: #9f5afd;
+#add-div {
+  margin-bottom: 20px;
+}
+
+#btn-showCountries {
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+#countries-body {
+  background-image: url("pagesbg.png");
+}
+
+#index-body {
+  background-image: url("landingbg.jpg");
+  color: white;
 }
